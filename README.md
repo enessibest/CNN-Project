@@ -3,11 +3,11 @@ Section D : Load the data in
 Let's load in the dataset using Keras
 from keras.datasets import mnist 
 
-(trainsetX, trainsety),(testsetX,testsety) = mnist.load_data()
+ (trainsetX, trainsety),(testsetX,testsety) = mnist.load_data()
 
-print('Train: X = {}, y = {}'.format(trainsetX.shape, trainsety.shape)) 
+ print('Train: X = {}, y = {}'.format(trainsetX.shape, trainsety.shape)) 
 
-print('Test: X = {}, y = {}'.format(testsetX.shape, testsety.shape))
+ print('Test: X = {}, y = {}'.format(testsetX.shape, testsety.shape))
 
 Section I.I : Initial Data Indagation
 Start off by understanding what MNIST Data is in more detail
